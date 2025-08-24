@@ -1,0 +1,51 @@
+/* Main background */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Streamlit App Wrapper */
+.stApp {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.08);
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+/* Header Titles */
+h1, h2 {
+    color: #1e1e2f;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Input Fields */
+input, select, .stTextInput>div>div>input {
+    border-radius: 8px !important;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #095db1;
+    color: rgb(221, 252, 169);
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #3321c0;
+}
+
+/* Data Table */
+.stDataFrame {
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
